@@ -1,0 +1,17 @@
+print("Ovo je program koji pretvara km u milje.")
+
+while True:
+    print("Unesite broj kilometara koji želite pretvoriti u milje (upišite samo broj). ")
+
+    km = input("Kilometri: ")
+
+    km = float(km)
+
+    milje = km * 0.621371
+
+    print("{0} kilometara jest {1} milja.".format(km, milje))
+
+    ponavljanje = input("Želite li drugu pretvorbu? Odgovorite s DA ili NE ")
+
+    if ponavljanje == "NE" or ponavljanje == "Ne" or ponavljanje == "ne":
+        break
